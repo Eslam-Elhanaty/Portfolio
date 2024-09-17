@@ -1,0 +1,815 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+
+    line-height: 1.4;
+    color: #333;
+    background-color: #fff;
+}
+
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.clear {
+
+    clear: both;
+}
+
+/*  ------------------------------------------------ */
+
+
+/* start home  */
+
+
+
+#home {
+    overflow: hidden;
+    background-attachment: fixed;
+    background-image: url(../imgs/bg.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.bg-color {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+
+}
+
+
+.navbar .navnav {
+    position: fixed;
+    top: 0;
+   
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+.logo {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar ul a {
+    color: #ffffff;
+
+}
+
+
+#home .navnav .ul-hover ul li {
+    position: relative;
+}
+
+
+.navbar ul a::before{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    background-color: #f5f5f5;
+    transition: width 2s ease;
+
+}
+
+/* .navbar  ul a:hover::before{
+    width: 100%;
+} */
+.navbar ul a.active::before{
+    width: 100%;
+}
+/*  */
+
+/*  */
+.name1 {
+
+    h1 {
+        font-size: 50px;
+        color: #ffffff;
+        font-weight: 800;
+
+    }
+
+    h2 {
+        font-size: 50px;
+        color: aliceblue;
+        padding-top: 30px;
+    }
+}
+
+#home h2::after {
+    content: '';
+    animation: typing 15s infinite ;
+}
+
+@keyframes typing {
+    0% {
+        content: '|';
+    }
+
+    1.5% {
+        content: 'D|';
+    }
+
+    3% {
+        content: 'De|';
+    }
+
+    4.5% {
+        content: 'Dev|';
+    }
+
+    6% {
+        content: 'Deve|';
+    }
+
+    7.5% {
+        content: 'Devel|';
+    }
+
+    9% {
+        content: 'Develo|';
+    }
+
+    10.5% {
+        content: 'Develop|';
+    }
+
+    12% {
+        content: 'Develope|';
+    }
+
+    13.5% {
+        content: 'Developer|';
+    }
+
+    15% {
+        content: 'Develope|';
+    }
+    16.5% {
+        content: 'Develop|';
+    }
+    18% {
+        content: 'Develo|';
+    }
+    19.5% {
+        content: 'Devel|';
+    }
+    21% {
+        content: 'Deve|';
+    }
+    22.5% {
+        content: 'Dev|';
+    }
+    23% {
+        content: 'De|';
+    }
+    24.5% {
+        content: 'D|';
+    }
+    26% {
+        content: '|';
+    }
+    27.5% {
+        content: 'D|';
+    }
+    29% {
+        content: 'De|';
+    }
+    31.5% {
+        content: 'Des|';
+    }
+    32.5% {
+        content: 'Desi|';
+    }
+    33.5% {
+        content: 'Desig|';
+    }
+    35% {
+        content: 'Design|';
+    }
+    37.5% {
+        content: 'Designe|';
+    }
+    39% {
+        content: 'Designer|';
+    }
+    42% {
+        content: 'Designe|';
+    }
+    44% {
+        content: 'Design|';
+    }
+    46% {
+        content: 'Desig|';
+    }
+    48% {
+        content: 'Desi|';
+    }
+    50% {
+        content: 'Des|';
+    }
+    52% {
+        content: 'D|';
+    }
+    53.5% {
+        content: '|';
+    }
+    55% {
+        content: 'L|';
+    }
+    56.5% {
+        content: 'La|';
+    }
+    58% {
+        content: 'Lar|';
+    }
+    59.5% {
+        content: 'Larr|';
+    }
+    61% {
+        content: 'Larry|';
+    }
+    62.5% {
+        content: 'Larry |';
+    }
+    64% {
+        content: 'Larry D|';
+    }
+    65.5% {
+        content: 'Larry Da|';
+    }
+    67% {
+        content: 'Larry Dan|';
+    }
+    68.5% {
+        content: 'Larry Dani|';
+    }
+    70% {
+        content: 'Larry Danil|';
+    }
+    72% {
+        content: 'Larry Danile|';
+    }
+    74% {
+        content: 'Larry Daniles|';
+    }
+    76% {
+        content: 'Larry Danile|';
+    }
+    78% {
+        content: 'Larry Danil|';
+    }
+    80% {
+        content: 'Larry Dani|';
+    }
+    82% {
+        content: 'Larry Dan|';
+    }
+    84% {
+        content: 'Larry Da|';
+    }
+    86% {
+        content: 'Larry D|';
+    }
+    88% {
+        content: 'Larry |';
+    }
+    90% {
+        content: 'Larry|';
+    }
+    92% {
+        content: 'Larr|';
+    }
+    94% {
+        content: 'Larr|';
+    }
+    96% {
+        content: 'Lar|';
+    }
+    98% {
+        content: 'La|';
+    }
+    100% {
+        content: 'L|';
+    }
+  
+}
+
+.social-icons .icons {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.social-icons .icons i {
+    color: #ffffff;
+
+}
+
+/* end home  */
+
+
+
+
+
+/* start about */
+
+
+
+#about {
+    background-image: ;
+    h2{
+        color: #343434;
+        font-size: 30px;
+        font-weight: 800;
+        font-family: "Montserrat", sans-serif;
+    }
+ p{
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 15px;
+    color: #748182;
+}
+ }
+
+
+
+
+.progress{
+    height: 25px;
+box-shadow: 3px;
+}
+
+
+.buttons .buton1 {
+    transition: .6s;
+    background-color: #1c1c1c;
+    color: #eee;
+}
+
+.buttons .buton2 {
+    transition: .6s;
+    color: #1c1c1c;
+
+}
+
+#about .buton1:hover {
+
+    background-color: #fff;
+    color: #1c1c1c;
+
+}
+
+#about .buton2:hover {
+    background-color: #1c1c1c;
+    color: #eee;
+}
+
+#about .eslam::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    z-index:1 ;
+}
+
+
+/* end  about */
+
+
+/* <!-- start Services. --> */
+
+#SERVICES{
+    background-color:#f7f7f7 ;
+h2{
+    color: #343434;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+
+}
+h4{
+    font-family: "Montserrat", sans-serif;
+font-size: 16px;
+font-weight: 800;
+padding-top: 20px;
+}
+}
+#SERVICES h2::after{
+    content: "";
+    width: 20%;
+    height: 20px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+    z-index: 1 ;
+}
+
+
+/*  */
+#SERVICES .icon{
+    width: 65px;
+    height: 65px;
+    background-color: #f4f4f4;
+}
+.DESIGN {
+
+    background-color: #ffffff;
+}
+
+#SERVICES .DESIGN:hover .icon{
+    background-color: #1c1c1c;
+}
+/* <!-- END Services. --> */
+
+
+/* <!-- start PROTO. --> */
+.navporto{
+    display: flex;
+    justify-content: center;
+    
+}
+.nav-pills .nav-link.active{
+    color: #000;
+    background-color: transparent;
+}
+.navporto button{
+    color: #000;
+}
+
+ .ico-poto{
+    width: 35px;
+    height: 35px;
+    border:1px solid #111 ;
+    background: #111;
+}
+
+/* <!-- start PROTO. --> */
+#Portfolio h2{
+    color: #343434;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+#Portfolio h2::after{
+    content: "";
+    width: 15%;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -20px;
+    left: 42%;
+    z-index: -1;
+}
+
+
+
+
+.icon-poto{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    background-color: rgba(255, 255, 255, 0.95);
+    transform: translateY(20%);
+    opacity: 0;
+    transition: .3s;
+    
+    i{  
+      color: #f4f4f4; 
+        
+    }
+}
+ .item-img:hover .icon-poto{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.icon-poto .ico-poto:hover{
+    background: #f4f4f4; 
+     i{
+        color: #000;
+     }
+}
+
+
+/* start */
+
+#carousel
+#carousel{
+    background-color: #f7f7f7;
+    span{color: #748182;}
+    p{color: #748182;}
+}
+.Alonso img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+
+
+.carousel-inner {
+    background-image: url(../img/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel-item {
+    background-color: #f7f7f7;
+    height: 100%;
+
+}
+
+
+
+#contu {
+    background-image: url(../img/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    margin-top: 70px;
+   
+}
+.contur{
+    background-color: #f7f7f7;
+span{
+    color: #748182;
+}
+p{
+    color: #748182;
+
+}
+}
+
+
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+}
+.carousel-indicators [data-bs-target]:hover{
+
+    background-color:#748182;
+}
+
+
+.testmonial {
+
+    p{
+        color: #748182;
+        font-size: 15px;
+        line-height: 1.6;
+        font-weight: 400;
+        word-spacing: 2px;
+        font-family: "Poppins", sans-serif;
+    }
+    span{
+        color: #748182;
+        font-size: 15px;
+        font-weight: 500;
+
+    }
+}
+
+#carousel{
+    background-color: #f7f7f7;
+    
+}
+
+#carousel .test-name h2{
+    position: relative;
+    color: #343434;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+#carousel h2::after{
+    content: "";
+    width: 30%;
+    height: 20px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -15px;
+    left: 35%;
+    z-index: 1 ;
+}
+
+/* ////////user//////// */
+.users{
+    h4{
+        font-size: 30px;
+        font-family:"Montserrat", sans-serif ;
+        font-weight: 900;
+    }
+    p{
+        color: #748182;
+        font-size: 15px;
+        padding:8px 0 30px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+    }
+}
+/* ////////user//////// */
+
+
+/* start Team */
+.Name{
+    position: relative;
+    color: #343434;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif; 
+}
+#Team h2::after{
+    content: "";
+    width: 20%;
+    height: 20px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+    z-index: 1 ;
+}
+
+
+.card-body{
+    
+    background-color: #343434;
+    h4,h5{
+color: #ffffff;
+font-size: 20px; 
+font-family:"Montserrat", sans-serif ;       
+    }
+}
+/* end Team */
+
+#Team{
+    background-color: #f7f7f7;
+}
+.card-img img:hover{
+    transform: scale(1.2); 
+
+   
+}
+.card-img{
+    overflow: hidden;
+}
+.card-img img{
+    transition: 1s;
+}
+.icon-img{
+    
+    visibility: hidden;
+    position: absolute;
+    transition: 0.5s;
+    transform: rotateY(180deg) scale(0.3, 0.3);
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.card:hover .icon-img{
+    transform: translateY(180deg);
+visibility: visible; 
+transform: scale(1);
+
+
+}
+
+.iccon{
+    width:48px;
+    height: 48px;
+    background-color: #000;
+    
+}
+.iccon i{
+    color: rgb(255, 255, 255);
+}
+
+
+.iccon:hover{
+    background-color: #fff;
+    i{
+        color:  #000; 
+    }
+}
+/* /\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+
+/* footer */
+#Contact {
+    h2{
+        color: #343434;
+        font-size: 40px;
+        font-weight: 900;
+        font-family: "Montserrat", sans-serif;
+    }
+  
+
+    p{
+        color: #748182;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif ;
+
+    }
+
+}
+
+.contact-icon .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #f4f4f4;
+}
+
+.fcontact-icon .icons i {
+    font-size: 45px;
+    color: #000;
+
+}
+.contact-icon .icon:hover{
+    background-color: #000;
+    i{
+        color:#f4f4f4 ;
+    }
+
+}
+#Contact button{
+    background-color: #1c1c1c;
+    color: #eee;
+}
+#Contact button:hover{
+    background-color: transparent;
+    color: #1c1c1c;
+}
+
+.ends{
+   margin-top: 20px;
+    background-color: #1c1c1c;
+    p{
+        color: #748182;
+    }
+}
+
+
+#Contact h2::after{
+    content: "";
+    width: 17%;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 42%;
+    z-index: -1;
+}
+#Contact input, textarea{
+    background-color:#f4f4f4 ;
+}
+#Contact{
+    background-color: ##;
+}
